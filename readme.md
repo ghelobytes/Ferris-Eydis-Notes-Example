@@ -3,6 +3,7 @@
 A project using [Ferris 3](http://ferrisframework.org), [Eydis](https://github.com/jonparrott/Generator-Eydis), [Eydis-Gapi](https://github.com/jonparrott/Eydis-GAPI), and [Eydis-List](https://github.com/jonparrott/Eydis-List).
 
 This project consists of a two pieces:
+
 1. The *backend* powered by Ferris 3 and Google Cloud Endpoints.
 2. The *frontend* written in AngularJS.
 
