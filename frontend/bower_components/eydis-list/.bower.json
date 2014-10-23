@@ -1,0 +1,21 @@
+{
+  "name": "eydis-list",
+  "main": [
+    "eydis-list.js"
+  ],
+  "dependencies": {
+    "angular": "1.*",
+    "eydis-gapi": "*"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/jonparrott/Eydis-List",
+  "_release": "ca7147f6ca",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "ca7147f6cade9e5245de4a76b4468ea98379f215"
+  },
+  "_source": "git://github.com/jonparrott/Eydis-List.git",
+  "_target": "*",
+  "_originalSource": "eydis-list"
+}

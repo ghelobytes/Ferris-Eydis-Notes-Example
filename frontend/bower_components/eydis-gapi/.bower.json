@@ -1,0 +1,22 @@
+{
+  "name": "eydis-gapi",
+  "main": [
+    "eydis-gapi-signin.html",
+    "eydis-gapi-signin.js",
+    "eydis-gapi.js"
+  ],
+  "dependencies": {
+    "angular": "1.x"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/jonparrott/Eydis-GAPI",
+  "_release": "3b9667e70f",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "3b9667e70faee02341a7d6b87be60720c737a027"
+  },
+  "_source": "git://github.com/jonparrott/Eydis-GAPI.git",
+  "_target": "*",
+  "_originalSource": "eydis-gapi"
+}

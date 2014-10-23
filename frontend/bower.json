@@ -1,0 +1,22 @@
+{
+  "name": "notes",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "1.2.x",
+    "bootstrap": "~3.1.1",
+    "angular-resource": "1.2.x",
+    "angular-cookies": "1.2.x",
+    "angular-sanitize": "1.2.x",
+    "angular-animate": "1.2.x",
+    "angular-touch": "1.2.x",
+    "angular-route": "1.2.x",
+    "eydis-gapi": "*",
+    "eydis-list": "*",
+    "font-awesome": "~4.1.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.2.x",
+    "angular-scenario": "1.2.x"
+  },
+  "appPath": "app"
+}

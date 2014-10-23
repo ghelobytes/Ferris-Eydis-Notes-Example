@@ -1,0 +1,41 @@
+<div class="container">
+
+  <!-- This is form to add a new item -->
+  <div class="panel panel-default">
+    <div class="panel-heading">New note</div>
+    <div class="panel-body">
+      <form role="form">
+        <div class="form-group">
+          <textarea ng-model="new_note.content" class="form-control" placeholder="Enter your note"></textarea>
+        </div>
+        <button type="button" class="btn btn-primary" ng-click="default.add_new_note(new_note)">Add</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- existing items -->
+  <div class="panel panel-default" ng-repeat="note in default.notes.items">
+    <div class="panel-heading">
+      {{note.created|date:'MM/dd/yyyy @ h:mma'}}
+    </div>
+    <div class="panel-body" ng-if="!note.editing">
+      {{note.content}}
+    </div>
+    <div class="panel-body" ng-if="note.editing">
+      <form role="form">
+        <div class="form-group">
+          <textarea ng-model="note.content" class="form-control" placeholder="Enter your note"></textarea>
+        </div>
+        <button type="button" class="btn btn-primary" ng-click="default.notes.update(note)">Save</button>
+      </form>
+    </div>
+
+    <div class="panel-footer text-right">
+      <button type="button" ng-click="note.editing = !note.editing" class="btn btn-info">Edit</button>
+      <button type="button" ng-click="default.notes.delete(note)" class="btn btn-danger">Delete</button>
+    </div>
+  </div>
+  <div class="text-center">
+    <button type="button" ng-show="default.notes.list.more" ng-click="default.notes.list.next({append: true});" class="btn btn-default">Load More</button>
+  </div>
+</div>
